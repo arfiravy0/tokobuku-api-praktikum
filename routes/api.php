@@ -9,6 +9,5 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::get('/bukus/search', [BukuController::class, 'search']);
 Route::apiResource('kategoris', KategoriController::class);
 Route::apiResource('bukus', BukuController::class);
